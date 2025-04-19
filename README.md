@@ -18,13 +18,12 @@ If this helps you — even a little — then I’m glad we crossed paths.
 ---
 
 ## Lessons So Far
-
-- `Lesson 1 — Buddhist Terminology (Across Pāli, Sanskrit, Nepali, Hindi, Maithili & English)`
-- `Lesson 2 — Viññāṇa: What Is Consciousness?`
-- `Lesson 3 — Not-Self and the Illusion of “Me”`
-- `Lesson 4 — Conventional and Ultimate Truths`
-- `Lesson 5 — Why Practice Vipassana?`
-- `Lesson 6 — Calm-Abiding: A Place to Start`
+- 🪷 [Thread 1: Words We Use](./thread-1-terminology.html)
+- 🔍 [Thread 2: Viññāṇa – What Knows?](./thread-2-vinnana.html)
+- 🌱 [Thread 3: Self and the Beautiful Disappearance](./thread-3-non-self.html)
+- 🌊 [Thread 4: Two Truths (Conventional & Ultimate)](./thread-4-truths.html)
+- 🧘 [Thread 5: Why Sit at All? (The Point of Vipassanā)](./thread-5-vipassana.html)
+- 🕊️ [Thread 6: Calm Abiding, A Place to Begin](./thread-6-calm-abiding.html)
 
 > I’ll keep adding more as I learn and reflect.
 
