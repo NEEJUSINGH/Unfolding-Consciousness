@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buddhist Glossary</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #fdfdfd;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background: #f4f4f4;
+    }
+    .pagination {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .pagination button {
+      padding: 6px 14px;
+      margin: 0 6px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Buddhist Terminology Glossary</h1>
+  <table id="glossaryTable">
+    <thead>
+      <tr>
+        <th>Pali</th>
+        <th>English</th>
+        <th>Meaning</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div class="pagination">
+    <button onclick="prevPage()">⟵ Prev</button>
+    <span id="pageInfo"></span>
+    <button onclick="nextPage()">Next ⟶</button>
+  </div>
+
+  <script>
+    const terms = [
+      { pali: 'Viññāṇa', english: 'Consciousness', meaning: 'Momentary awareness that arises with contact between sense base and object.' },
+      { pali: 'Citta', english: 'Mind-heart', meaning: 'The center of thought and emotion.' },
+      { pali: 'Mano', english: 'Mind faculty', meaning: 'Cognitive function of the mind.' },
+      { pali: 'Khandha', english: 'Aggregate', meaning: 'One of the five elements that constitute a being.' },
+      { pali: 'Saṅkhāra', english: 'Mental Formation', meaning: 'Volitional and conditioned tendencies of the mind.' },
+      { pali: 'Nāma-Rūpa', english: 'Name and Form', meaning: 'Mental and physical components of existence.' },
+      { pali: 'Paṭiccasamuppāda', english: 'Dependent Origination', meaning: 'The principle that all things arise in dependence upon conditions.' },
+      { pali: 'Āhāra', english: 'Nourishment', meaning: 'Four types of sustenance, including physical food and consciousness.' },
+      { pali: 'Nibbāna', english: 'Liberation', meaning: 'Unbinding from craving and delusion; freedom.' },
+      { pali: 'Anattā', english: 'Not-self', meaning: 'There is no unchanging, permanent self.' },
+    ];
+
+    let page = 1;
+    const perPage = 5;
+
+    function renderTable() {
+      const tbody = document.querySelector('#glossaryTable tbody');
+      tbody.innerHTML = '';
+      const start = (page - 1) * perPage;
+      const pageItems = terms.slice(start, start + perPage);
+
+      pageItems.forEach(term => {
+        const row = `<tr>
+          <td>${term.pali}</td>
+          <td>${term.english}</td>
+          <td>${term.meaning}</td>
+        </tr>`;
+        tbody.innerHTML += row;
+      });
+
+      document.getElementById('pageInfo').textContent = `Page ${page} of ${Math.ceil(terms.length / perPage)}`;
+    }
+
+    function prevPage() {
+      if (page > 1) {
+        page--;
+        renderTable();
+      }
+    }
+
+    function nextPage() {
+      if (page < Math.ceil(terms.length / perPage)) {
+        page++;
+        renderTable();
+      }
+    }
+
+    renderTable();
+  </script>
+</body>
+</html>
