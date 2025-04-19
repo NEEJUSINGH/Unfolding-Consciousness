@@ -1,6 +1,6 @@
 # Lesson 1: Buddhist Terminology
 
-| Terminology       | Romanized Pāli         | English Term & Meaning                                             | Meaning in Buddhist Philosophy |
+| Terminology       | Romanized Pāli         | English Term / Meaning                                             | Meaning in Buddhist Philosophy |
 |-------------------|--------------------------|----------------------------------------------------------------------|-------------------------------|
 | **विज्ञाण**         | Viññāṇa                   | Consciousness / Knowing / discernment                              | The knowing or awareness that arises with a sense base and object. It’s momentary, conditioned, and not-self. It arises and ceases based on contact. |
 | **चित्त**           | Citta                     | Mind-heart; thought and emotion center                              | The core of experience; a moment of consciousness itself. In some contexts, it refers to the emotional, ethical quality of mind — loving, agitated, calm, etc. |
