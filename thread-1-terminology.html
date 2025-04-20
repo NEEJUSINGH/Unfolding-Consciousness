@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Buddhist Glossary</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thread 1 – Buddhist Terminology</title>
   <style>
     body {
       font-family: sans-serif;
-      max-width: 800px;
+      max-width: 960px;
       margin: 40px auto;
       padding: 0 20px;
       background: #fdfdfd;
@@ -21,12 +21,13 @@
       margin-top: 20px;
     }
     th, td {
-      padding: 12px;
+      padding: 10px;
       border: 1px solid #ccc;
       text-align: left;
+      vertical-align: top;
     }
     th {
-      background: #f4f4f4;
+      background: #f0f0f0;
     }
     .pagination {
       text-align: center;
@@ -40,13 +41,14 @@
   </style>
 </head>
 <body>
-  <h1>Buddhist Terminology Glossary</h1>
+  <h1>🪷 Thread 1: Buddhist Terminology</h1>
   <table id="glossaryTable">
     <thead>
       <tr>
-        <th>Pali</th>
-        <th>English</th>
-        <th>Meaning</th>
+        <th>🪷 Devanagari</th>
+        <th>Romanized Pali</th>
+        <th>English Term & Meaning</th>
+        <th>Meaning in Buddhist Philosophy</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -60,16 +62,23 @@
 
   <script>
     const terms = [
-      { pali: 'Viññāṇa', english: 'Consciousness', meaning: 'Momentary awareness that arises with contact between sense base and object.' },
-      { pali: 'Citta', english: 'Mind-heart', meaning: 'The center of thought and emotion.' },
-      { pali: 'Mano', english: 'Mind faculty', meaning: 'Cognitive function of the mind.' },
-      { pali: 'Khandha', english: 'Aggregate', meaning: 'One of the five elements that constitute a being.' },
-      { pali: 'Saṅkhāra', english: 'Mental Formation', meaning: 'Volitional and conditioned tendencies of the mind.' },
-      { pali: 'Nāma-Rūpa', english: 'Name and Form', meaning: 'Mental and physical components of existence.' },
-      { pali: 'Paṭiccasamuppāda', english: 'Dependent Origination', meaning: 'The principle that all things arise in dependence upon conditions.' },
-      { pali: 'Āhāra', english: 'Nourishment', meaning: 'Four types of sustenance, including physical food and consciousness.' },
-      { pali: 'Nibbāna', english: 'Liberation', meaning: 'Unbinding from craving and delusion; freedom.' },
-      { pali: 'Anattā', english: 'Not-self', meaning: 'There is no unchanging, permanent self.' },
+      { dev: 'विज्ञाण', roman: 'Viññāṇa', eng: 'Consciousness / Knowing / Discernment', phil: 'The knowing or awareness that arises with a sense base and object. It’s momentary, conditioned, and not-self.' },
+      { dev: 'चित्त', roman: 'Citta', eng: 'Mind-heart; thought and emotion center', phil: 'The core of experience; a moment of consciousness itself. Refers to emotional and ethical tone of mind.' },
+      { dev: 'मनो', roman: 'Mano', eng: 'Mind faculty (thinking, memory, intention)', phil: 'Cognitive aspect of mind. Processes data and responses. Often distinguished from citta.' },
+      { dev: 'खन्ध', roman: 'Khandha', eng: 'Aggregate / Component of Experience', phil: 'Five components of personality: form, feeling, perception, mental formations, and consciousness. None are self.' },
+      { dev: 'संखार', roman: 'Saṅkhāra', eng: 'Mental formations / Volitions', phil: 'Volitional activities, habits, emotions — all mental fabrications.' },
+      { dev: 'नाम-रूप', roman: 'Nāma-Rūpa', eng: 'Name and Form (mind and body)', phil: "'Nāma' includes mental factors; 'Rūpa' is physical form. Together they create the person." },
+      { dev: 'पटिच्चसमुप्पाद', roman: 'Paṭiccasamuppāda', eng: 'Dependent Origination / Conditional Arising', phil: 'Nothing arises independently — all phenomena are conditionally arisen.' },
+      { dev: 'आहार', roman: 'Āhāra', eng: 'Nutriment / Sustenance', phil: 'Four kinds of food: physical food, sense contact, volition, and consciousness.' },
+      { dev: 'पटिसन्धिविज्ञाण', roman: 'Paṭisandhi Viññāṇa', eng: 'Rebirth-linking Consciousness', phil: 'Links previous karma to new life. Not a soul — a karmic continuity.' },
+      { dev: 'अनत्त', roman: 'Anattā', eng: 'Not-self / Selfless', phil: 'No unchanging self behind thoughts or body. Realizing this reduces suffering.' },
+      { dev: 'निब्बान', roman: 'Nibbāna', eng: 'Liberation / Unbinding', phil: 'The extinguishing of craving and ignorance. It’s freedom — not a place, but a state.' },
+      { dev: 'चक्कुविज्ञाण', roman: 'Cakkhu-viññāṇa', eng: 'Eye-consciousness (seeing)', phil: 'Arises when the eye contacts visible form. Impermanent and conditioned.' },
+      { dev: 'सोतविज्ञाण', roman: 'Sota-viññāṇa', eng: 'Ear-consciousness (hearing)', phil: 'Consciousness of sound — dependent on ear and sound.' },
+      { dev: 'घाणविज्ञाण', roman: 'Ghāṇa-viññāṇa', eng: 'Nose-consciousness (smelling)', phil: 'Awareness of scent — arises through contact between nose and odor.' },
+      { dev: 'जिव्हाविज्ञाण', roman: 'Jivhā-viññāṇa', eng: 'Tongue-consciousness (tasting)', phil: 'Consciousness that recognizes taste — impermanent and reactive.' },
+      { dev: 'कायविज्ञाण', roman: 'Kāya-viññāṇa', eng: 'Body-consciousness (touching)', phil: 'Consciousness that senses heat, pressure, motion — tactile awareness.' },
+      { dev: 'मनोविज्ञाण', roman: 'Mano-viññāṇa', eng: 'Mind-consciousness (thinking)', phil: 'Recognizes mental objects like ideas and memories — the sixth sense in Buddhist psychology.' },
     ];
 
     let page = 1;
@@ -83,9 +92,10 @@
 
       pageItems.forEach(term => {
         const row = `<tr>
-          <td>${term.pali}</td>
-          <td>${term.english}</td>
-          <td>${term.meaning}</td>
+          <td>${term.dev}</td>
+          <td>${term.roman}</td>
+          <td>${term.eng}</td>
+          <td>${term.phil}</td>
         </tr>`;
         tbody.innerHTML += row;
       });
