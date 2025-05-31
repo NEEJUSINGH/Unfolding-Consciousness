@@ -1,9 +1,19 @@
 
+# Unfolding Consciousness 
+  **This is not a teaching. It’s the listening.**
+
 *A quiet, non-scholarly walk through the Dharma — barefoot, wondering — not as teachings, but as lived questions.*
 
----
-
 ## About This Project
+
+This is a living notebook of reflections — drawn from Buddhist and Hindu traditions, modern psychology, and my own practice.  
+
+Each thread is an attempt to notice, name, and gently understand the layers of mind, emotion, habit, and awareness.
+
+I write to make sense of what I feel.  
+I write not to instruct, but to unfold — with you.
+
+🪷 _Neeju Singh_
 
 This is not a Buddhist textbook.  
 This is not a complete guide.  
