@@ -1,30 +1,85 @@
+# Unfolding Consciousness
 
-# Unfolding Consciousness 
-  **This is not a teaching. It’s the listening.**
+A quiet, curious walk through life as lived questions.
 
-*A quiet, non-scholarly walk through the Dharma — barefoot, wondering — not as teachings, but as lived questions.*
+---
 
 ## About This Project
 
-This is a living notebook of reflections — drawn from Buddhist and Hindu traditions, modern psychology, and my own practice.  
+A personal notebook of reflections. It’s just a slow unfolding of what I’m learning — as I live it.
 
-Each thread is an attempt to notice, name, and gently understand the layers of mind, emotion, habit, and awareness.
+Each thread is an attempt to notice, name, and gently understand the layers of life in general. It explores a word, a moment, a question — something I came across in practice, conversation, or just trying to make sense of things. Some ideas come from ancient traditions. Others from things I heard, Googled, asked, or felt deeply. 
 
-I write to make sense of what I feel.  
-I write not to instruct, but to unfold — with you.
+This is not a guidebook.I write to make sense of what I feel. These threads are not definitive answers — they are questions I’ve lived with, moments I’ve paused for, and fragments of clarity I’ve tried to gather along the way. This is not a scholarly project. I write not to instruct, but to unfold.
+---
 
-🪷 _Neeju Singh_
+## What You’ll Find Here
 
-This is not a Buddhist textbook.  
-This is not a complete guide.  
-This is simply a collection of personal notes, reflections, and understandings gathered as I walk the path of Vipassana and Buddhist inquiry.
+Each thread begins with a word or concept —  
+then follows a trail of thoughts, doubts, insights, and stories.
 
-These lessons are not definitive answers — they are questions I’ve lived with, moments I’ve paused for, and fragments of clarity I’ve tried to gather along the way.
-
-I am not a teacher. Just a fellow traveler.  
-If this helps you — even a little — then I’m glad we crossed paths.
+You’ll find:
+- A few terms I’m exploring
+- Why I ended up reflecting on them
+- What I heard from teachers or texts
+- How I wrestled with or applied them in life
+- And where that thread led me
 
 ---
+
+## Threads So Far
+
+- **Thread 1:** Words We Use  
+- **Thread 2:** *Viññāṇa* – What Knows?  
+- **Thread 3:** Self and the Beautiful Disappearance  
+- **Thread 4:** Two Truths – Conventional & Ultimate  
+- **Thread 5:** Why Sit at All? (The Point of Vipassanā)  
+- **Thread 6:** Calm Abiding – A Place to Begin  
+
+More to come, as I keep listening and learning.
+
+---
+
+## Who This Is For
+
+- Beginners who feel a little lost
+- Thinkers who like clarity without jargon
+- Wanderers drawn to old ideas but new ways of seeing
+- Anyone who has asked, _“What is all this for?”_  
+- And especially: anyone who’s confused, but still curious
+
+---
+
+## A Note
+
+Please don’t treat this as a source of truth.  
+These are just notes from someone trying to understand.  
+Written slowly. With care. And without pretending to know.
+
+If any of it helps you — even a little — then I’m glad we crossed paths.
+
+---
+
+**May it serve the curious.**  
+**May it point toward peace.**  
+**May it help you befriend yourself a little more.**
+
+  
+_Neeju Singh_
+
+---
+
+## License
+
+Open to all. Reflect, reuse, or share — with kindness.
+
+
+
+
+
+
+
+
 
 ## Lessons So Far
 -  [Thread 1: Words We Use](./thread-1-terminology.html)
@@ -56,7 +111,3 @@ May it serve the curious. May it point toward peace.
 May it help you befriend yourself a little more.
 
 ---
-
-## License
-
-Open for anyone to read, reflect, and share — with kindness.
