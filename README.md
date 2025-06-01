@@ -64,9 +64,6 @@ If any of it helps you — even a little — then I’m glad we crossed paths.
 **May it point toward peace.**  
 **May it help you befriend yourself a little more.**
 
-  
-_Neeju Singh_
-
 ---
 
 ## License
